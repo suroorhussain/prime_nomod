@@ -21,9 +21,9 @@ def primes(n) :
             j += 1
             # print "after", j
             # print "sieve", sieve
-        temp_list = [x for x in num if x not in sieve]
-        print "temp list", temp_list
-        num = temp_list
+        num = [x for x in num if x not in sieve]
+        # print "temp list", temp_list
+        # num = temp_list
         print "prime", primes
         print "num", num
 
